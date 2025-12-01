@@ -10,7 +10,7 @@ import axios from "axios";
 import { useLocation } from "react-router-dom";
 
 
-//const stripePromise = loadStripe("pk_test_51OuqFxCmm4LNA3ZHrMM0fQ3X0M0Qevqe5nguaK4OSPKthfzDIqLwD3gmBqvuAxghwyGJcAjfjbSuTjsZCy7MbMr000gQfl6XTv"); // your publishable key
+const stripePromise = loadStripe("pk_test_51OuqFxCmm4LNA3ZHrMM0fQ3X0M0Qevqe5nguaK4OSPKthfzDIqLwD3gmBqvuAxghwyGJcAjfjbSuTjsZCy7MbMr000gQfl6XTv"); // your publishable key
 
 const CheckoutForm = () => {
   const stripe = useStripe();
